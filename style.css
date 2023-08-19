@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Oswald', sans-serif;
+}
+body{
+   background:#ccc;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+}
+
+td,
+th {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+.bookDetails {
+    border: none;
+    text-align: left;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    font-family: 'PT Serif', serif;
+    padding: 20px 10px;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.siteName {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* display:inline-flex; */
+    flex: 2.5;
+}
+
+.menuList {
+    /* display:inline-flex; */
+    flex: 1;
+    /* text-align: right; */
+}
+
+header a {
+    color: #fff;
+    display: inline-block;
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.menuList ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.menuList ul li {
+    margin: 0 9px;
+    margin: 0 6px;
+    margin: 0 12px;
+    flex: 1;
+}
+
+.menuList ul li:first-child {
+    margin-left: 0;
+}
+
+.menuList ul li:last-child {
+    margin-right: 0;
+}
+.pageContent{
+  max-width:700px;
+  margin: 0 auto;
+  padding:50px 0;
+}
+table{
+  width:100%;
+  text-align: center;
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+section h2{
+  font-size: 25px;
+  font-family: 'PT Serif', serif; 
+  text-transform: uppercase;
+  padding-bottom:5px;
+  letter-spacing: 1px;;
+}
+.bookDetails a{
+   color: #24ad1d;
+   /* font-style: italic; */
+   font-weight:700;
+   text-transform: uppercase;
+}
